@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage - Kursol</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        KURS<span>OL</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active">Homepage</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li>
+            <a href="courses.html">Courses <i class="fa-solid fa-chevron-down arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="course-detail.html">Detail course</a></li>
+              <li><a href="pricing.html">Pricing plan</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li>
+            <a href="#">Pages <i class="fa-solid fa-chevron-down arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="tutors.html">Tutors</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="blog.html">Blog Archive</a></li>
+              <li><a href="single-post.html">Single post</a></li>
+              <li><a href="404.html">Error 404</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#" class="btn btn-outline btn-sm">Log in</a>
+          <a href="#" class="btn btn-primary btn-sm">Sign up</a>
+        </div>
+        <button class="mobile-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <span class="subtitle-tag">Premium Online Courses</span>
+          <h1>Upgrade your skills and knowledge.</h1>
+          <p>Unlock your potential with our 30-day free trial - sign up with your email today!</p>
+          <form class="hero-form" onsubmit="return false;">
+            <input type="email" placeholder="Enter your email">
+            <button class="btn btn-primary">Get Discounts</button>
+          </form>
+        </div>
+        <div class="hero-image">
+          <div class="hero-circle"></div>
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500&h=600&fit=crop" alt="Student with books">
+          </div>
+          <div class="hero-dots">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="partners">
+    <div class="container">
+      <h4>Trusted by over 16,000 companies and millions of learners around the world</h4>
+      <div class="partners-grid">
+        <div class="partner-card"><span class="partner-name"><i class="fa-solid fa-chart-simple"></i> moxtechzo</span></div>
+        <div class="partner-card"><span class="partner-name"><i class="fa-solid fa-g"></i> gamequ</span></div>
+        <div class="partner-card"><span class="partner-name"><i class="fa-solid fa-leaf"></i> farmica</span></div>
+        <div class="partner-card"><span class="partner-name">Consul<em>biz</em></span></div>
+        <div class="partner-card"><span class="partner-name"><i class="fa-solid fa-heart-pulse"></i> careva</span></div>
+        <div class="partner-card"><span class="partner-name"><i class="fa-solid fa-sun"></i> bloomly</span></div>
+        <div class="partner-card"><span class="partner-name"><i class="fa-solid fa-building"></i> BIZULTANCY</span></div>
+        <div class="partner-card"><span class="partner-name"><i class="fa-solid fa-chart-line"></i> accufirm</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Courses -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Latest Courses</h2>
+      <div class="courses-grid">
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400&h=250&fit=crop" alt="Electronics">
+            <span class="course-category-badge">Electronics</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">The Theory Behind Electronics &ndash; A Beginners Guide</a></h4>
+            <div class="course-rating">
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+              <span>(1 customer review)</span>
+            </div>
+            <div class="course-price">$299</div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=250&fit=crop" alt="Copywriting">
+            <span class="course-category-badge">Copywriting</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">Copywriting &ndash; The Psychology Of Your Irresistible Offer</a></h4>
+            <div class="course-rating">
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>
+              <span>(1 customer review)</span>
+            </div>
+            <div class="course-price">$499</div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&h=250&fit=crop" alt="Video Production">
+            <span class="course-category-badge">Video Production</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">Video Production Bootcamp: Videography, Cinematography+</a></h4>
+            <div class="course-rating">
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <span>(1 customer review)</span>
+            </div>
+            <div class="course-price">$499</div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&h=250&fit=crop" alt="Cinematography">
+            <span class="course-category-badge">Cinematography</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">Cinematography &amp; Videography: Better Video with Any Camera</a></h4>
+            <div class="course-rating">
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+              <span>(1 customer review)</span>
+            </div>
+            <div class="course-price">$499</div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&h=250&fit=crop" alt="Productivity">
+            <span class="course-category-badge" style="background:#8B5CF6">Personal Productivity</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">These 5 Productivity Hacks Will Change the Way You Work</a></h4>
+            <div class="course-rating">
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+              <span>(1 customer review)</span>
+            </div>
+            <div class="course-price">$199</div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop" alt="Accounting">
+            <span class="course-category-badge" style="background:#059669">Accounting</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">Financial Accounting &ndash; #1 Ranked University: Course 1 of 5</a></h4>
+            <div class="course-rating">
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+              <span>(2 customer reviews)</span>
+            </div>
+            <div class="course-price">$199</div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="Finance">
+            <span class="course-category-badge" style="background:#2563EB">Development, Finance</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">The Complete Introduction To Accounting and Finance</a></h4>
+            <div class="course-price">$249</div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-image">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop" alt="WordPress">
+            <span class="course-category-badge" style="background:#7C3AED">Development</span>
+          </div>
+          <div class="course-card-body">
+            <h4><a href="course-detail.html">Become a WordPress Developer: Unlocking Power With Code</a></h4>
+            <div class="course-rating">
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+              <span>(1 customer review)</span>
+            </div>
+            <div class="course-price"><span class="old-price">$79</span> <span class="sale-price">$49</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section-sm bg-light">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon orange"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Online Courses</h3>
+          <p>Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu</p>
+          <a href="courses.html" class="btn btn-primary btn-sm">Learn more</a>
+        </div>
+        <div class="feature-card highlighted">
+          <div class="feature-icon orange"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Upgrade Personal Skill</h3>
+          <p>Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu</p>
+          <a href="courses.html" class="btn btn-white btn-sm">Learn more</a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon orange"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Certifications</h3>
+          <p>Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu</p>
+          <a href="courses.html" class="btn btn-primary btn-sm">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Category -->
+  <section class="categories-section">
+    <div class="container">
+      <h3>Popular Category</h3>
+      <div class="categories-grid">
+        <a href="courses.html" class="category-pill"><i class="fa-solid fa-briefcase"></i> Business</a>
+        <a href="courses.html" class="category-pill"><i class="fa-solid fa-camera"></i> Photography</a>
+        <a href="courses.html" class="category-pill"><i class="fa-solid fa-music"></i> Music</a>
+        <a href="courses.html" class="category-pill"><i class="fa-solid fa-pen-nib"></i> Design</a>
+        <a href="courses.html" class="category-pill"><i class="fa-solid fa-code"></i> Developments</a>
+        <a href="courses.html" class="category-pill"><i class="fa-solid fa-chart-bar"></i> Finance</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video CTA -->
+  <section class="video-cta" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=500&fit=crop');">
+    <div class="container text-center">
+      <a href="#" class="play-button"><i class="fa-solid fa-play"></i></a>
+      <h2>Start your learning journey today</h2>
+      <p>Ultrices quam mattis posuere porttitor tellus rhoncus tristique. Primis aliquam dignissim interdum vel suscipit sodales.</p>
+      <a href="courses.html" class="btn btn-primary btn-lg">Discover more &rarr;</a>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-choose">
+    <div class="container">
+      <div class="why-choose-inner">
+        <div class="why-choose-image">
+          <div class="blob"></div>
+          <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=500&h=600&fit=crop" alt="Student studying">
+        </div>
+        <div class="why-choose-content">
+          <span class="subtitle-tag">Why Choose Us</span>
+          <h2>It's The Bright One, It's The Right One, That's Education.</h2>
+          <p>Aliquam pellentesque quam aenean bibendum mollis per. Duis non rhoncus vulputate maximus enim ornare. Diam eu id rutrum lobortis netus neque integer venenatis letius libero a.</p>
+          <div class="why-features">
+            <div class="why-feature-item">
+              <div class="why-feature-icon"><i class="fa-solid fa-comments"></i></div>
+              <div>
+                <h5>Comprehensive Course</h5>
+                <p>Facilisis a habitant montes litora erat magnis</p>
+              </div>
+            </div>
+            <div class="why-feature-item">
+              <div class="why-feature-icon"><i class="fa-solid fa-users"></i></div>
+              <div>
+                <h5>Expert Instructors</h5>
+                <p>Facilisis a habitant montes litora erat magnis</p>
+              </div>
+            </div>
+            <div class="why-feature-item">
+              <div class="why-feature-icon"><i class="fa-solid fa-laptop"></i></div>
+              <div>
+                <h5>Flexible Learning</h5>
+                <p>Facilisis a habitant montes litora erat magnis</p>
+              </div>
+            </div>
+            <div class="why-feature-item">
+              <div class="why-feature-icon"><i class="fa-solid fa-award"></i></div>
+              <div>
+                <h5>Valid Certifications</h5>
+                <p>Facilisis a habitant montes litora erat magnis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="stats-inner">
+        <div class="stat-content">
+          <span class="subtitle-tag">Who we are</span>
+          <h2>Primary Instruction, Higher Department Of Education.</h2>
+          <p>Aliquam pellentesque quam aenean bibendum mollis per. Duis non rhoncus vulputate maximus enim ornare. Diam eu id rutrum lobortis netus neque integer venenatis letius libero a.</p>
+          <div class="progress-item">
+            <div class="progress-label"><span>IT &amp; Web Programming Instructors</span><span>55%</span></div>
+            <div class="progress-bar"><div class="progress-fill" data-width="55"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>Business &amp; Marketing Instructors</span><span>68%</span></div>
+            <div class="progress-bar"><div class="progress-fill" data-width="68"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>Finance &amp; Accounting Instructors</span><span>58%</span></div>
+            <div class="progress-bar"><div class="progress-fill" data-width="58"></div></div>
+          </div>
+          <a href="about.html" class="btn btn-primary" style="margin-top:20px;">Discover more</a>
+        </div>
+        <div class="stat-image">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&h=500&fit=crop" alt="Instructor">
+          <div class="rating-badge">
+            <span class="label">Excellent</span>
+            <div class="stars-row"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+            <div class="score">4.7</div>
+            <span class="sub-label">Client Ratings</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download App -->
+  <section class="download-app">
+    <div class="container">
+      <div class="download-app-inner">
+        <div class="download-app-image">
+          <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=500&fit=crop" alt="Student with phone" style="border-radius:16px;">
+        </div>
+        <div class="download-app-content">
+          <span class="subtitle-tag" style="background:rgba(255,255,255,0.2);color:#fff;">Download App</span>
+          <h2>Start your learning journey today! Enroll now in our online course.</h2>
+          <p>Vehicula ultrices fusce augue ullamcorper praesent posuere fringilla mattis aliquet dictumst libero</p>
+          <div class="app-buttons">
+            <a href="#" class="app-btn">
+              <i class="fa-brands fa-google-play"></i>
+              <div class="app-btn-text"><small>GET IT ON</small><span>Google Play</span></div>
+            </a>
+            <a href="#" class="app-btn">
+              <i class="fa-brands fa-apple"></i>
+              <div class="app-btn-text"><small>Download on the</small><span>App Store</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:40px;">
+        <span class="subtitle-tag">Choose Package</span>
+        <h2>Upgrade your skills and knowledge</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <h3>Starter Pack</h3>
+            <p>Pulvinar per euismod tincidunt purus tempor convallis est</p>
+          </div>
+          <div class="pricing-card-body">
+            <h5>Features</h5>
+            <ul class="pricing-features">
+              <li><i class="fa-solid fa-circle-check"></i> Fusce nibh dignissim</li>
+              <li><i class="fa-solid fa-circle-check"></i> Si magna sem facilisi</li>
+              <li><i class="fa-solid fa-circle-check"></i> Iaculis cubilia</li>
+              <li><i class="fa-solid fa-circle-check"></i> Porttitor magnis cursus</li>
+              <li><i class="fa-solid fa-circle-check"></i> Tortor ipsum magna</li>
+            </ul>
+            <div class="pricing-amount">
+              <span class="label">START FROM</span>
+              <div><span class="price">$49.99</span> <span class="period">/monthly</span></div>
+            </div>
+            <a href="#" class="btn btn-primary">Choose Package</a>
+          </div>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <h3>Premium Pack</h3>
+            <p>Pulvinar per euismod tincidunt purus tempor convallis est</p>
+          </div>
+          <div class="pricing-card-body">
+            <h5>Features</h5>
+            <ul class="pricing-features">
+              <li><i class="fa-solid fa-circle-check"></i> Fusce nibh dignissim</li>
+              <li><i class="fa-solid fa-circle-check"></i> Si magna sem facilisi</li>
+              <li><i class="fa-solid fa-circle-check"></i> Iaculis cubilia</li>
+              <li><i class="fa-solid fa-circle-check"></i> Porttitor magnis cursus</li>
+              <li><i class="fa-solid fa-circle-check"></i> Tortor ipsum magna</li>
+            </ul>
+            <div class="pricing-amount">
+              <span class="label">START FROM</span>
+              <div><span class="price">$99.99</span> <span class="period">/monthly</span></div>
+            </div>
+            <a href="#" class="btn btn-primary">Choose Package</a>
+          </div>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-card-header">
+            <h3>Expert Pack</h3>
+            <p>Pulvinar per euismod tincidunt purus tempor convallis est</p>
+          </div>
+          <div class="pricing-card-body">
+            <h5>Features</h5>
+            <ul class="pricing-features">
+              <li><i class="fa-solid fa-circle-check"></i> Fusce nibh dignissim</li>
+              <li><i class="fa-solid fa-circle-check"></i> Si magna sem facilisi</li>
+              <li><i class="fa-solid fa-circle-check"></i> Iaculis cubilia</li>
+              <li><i class="fa-solid fa-circle-check"></i> Porttitor magnis cursus</li>
+              <li><i class="fa-solid fa-circle-check"></i> Tortor ipsum magna</li>
+            </ul>
+            <div class="pricing-amount">
+              <span class="label">START FROM</span>
+              <div><span class="price">$199.99</span> <span class="period">/monthly</span></div>
+            </div>
+            <a href="#" class="btn btn-primary">Choose Package</a>
+          </div>
+        </div>
+      </div>
+      <div class="need-help" style="margin-top:30px;">
+        <div class="need-help-icon"><i class="fa-solid fa-headset"></i></div>
+        <div>
+          <h5>Need more help?</h5>
+          <p>Don't hesitate to contact us</p>
+        </div>
+        <a href="contact.html" class="btn btn-outline btn-sm">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support Banner -->
+  <section class="support-banner">
+    <div class="container">
+      <div class="support-inner">
+        <div class="support-content">
+          <h2>Our friendly support team is here to help.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+          <a href="contact.html" class="btn btn-white">Contact us</a>
+        </div>
+        <div class="support-image">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=350&h=300&fit=crop" alt="Support">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:40px;">
+        <span class="subtitle-tag">Common Questions</span>
+        <h2>Most Popular Questions</h2>
+      </div>
+      <div class="faq-grid">
+        <div>
+          <div class="accordion-item active">
+            <div class="accordion-header">Non nisi vehicula nibh efficitur porttitor? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat. Venenatis tincidunt neque ullamcorper cras potenti litora nunc eget.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Proin consectetuer sapien lacinia ullamcorper dictum consequat? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Primis dictum sapien curae quisque leo gravida? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Sollicitudin augue sapien eleifend donec ridiculus dictumst? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Natoque nisl nam orci auctor penatibus congue? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Blandit non rhoncus habitant ut pede feugiat? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+        </div>
+        <div>
+          <div class="accordion-item active">
+            <div class="accordion-header">Non nisi vehicula nibh efficitur porttitor? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat. Venenatis tincidunt neque ullamcorper cras potenti litora nunc eget.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Proin consectetuer sapien lacinia ullamcorper dictum consequat? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Primis dictum sapien curae quisque leo gravida? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Sollicitudin augue sapien eleifend donec ridiculus dictumst? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Natoque nisl nam orci auctor penatibus congue? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">Blandit non rhoncus habitant ut pede feugiat? <span class="icon"><i class="fa-solid fa-chevron-down"></i></span></div>
+            <div class="accordion-body"><p>Quam tellus morbi at aptent mauris parturient velit arcu. Purus nostra hendrerit habitasse cursus ac class magna parturient placerat.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            KURS<span>OL</span>
+          </a>
+          <p>Unlock your potential with Kursol &ndash; your gateway to expert-led courses across diverse fields. Start learning today and shape your future!</p>
+          <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Resource</h4>
+          <ul>
+            <li><a href="#">Technology &amp; Programming</a></li>
+            <li><a href="#">Creative Arts &amp; Design</a></li>
+            <li><a href="#">Business &amp; Entrepreneurship</a></li>
+            <li><a href="#">Personal Development</a></li>
+            <li><a href="#">Languages &amp; Communication</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Ticket Support</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="blog.html">Article &amp; News</a></li>
+            <li><a href="#">Legal notices</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2026 Kursol, All rights reserved. Powered by MoxCreative.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Term of use</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
